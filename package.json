@@ -3,13 +3,11 @@
     "firebase": "^9.0.2",
     "table": "^6.7.1"
   },
-  "devDependencies": {
-    "netlify-lambda": "^2.0.14",
-    "webpack-cli": "^4.8.0"
-  },
   "scripts": {
     "build": "npm run build:server",
-    "build:client": "webpack --mode production --config webpack.client.js",
     "build:server": "netlify-lambda build netlify/functions"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.14"
   }
 }

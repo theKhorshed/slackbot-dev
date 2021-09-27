@@ -1,5 +1,29 @@
 import { table } from "table";
-import { showReport } from "./modules/firebase-utils.js";
+import {
+  addUser,
+  updateSignInStatus,
+  showReport,
+} from "../../modules/firebase-utils.js";
+const data = {
+  name: "Lisa",
+  slack_handle: "lisa",
+  signin_status: {
+    ch: "red",
+    "fb-onboarding": "red",
+    "fb-ads": "red",
+    "fb-groups": "red",
+    recallers: "red",
+    h360: "red",
+    an: "red",
+    hstd: "red",
+    "wag-nation": "red",
+    icp: "red",
+  },
+};
+
+// addUser(data);
+// updateSignInStatus("khorshed.ninja", "ch", "updated");
+
 const config = {
   columns: [
     { alignment: "left" },
@@ -36,12 +60,13 @@ const config = {
   },
 };
 
-exports.handler = async function (event, context) {
+async function test() {
   const data = await showReport();
-  data = table(data, config);
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ data }),
-  };
-};
+  console.log(table(data, config));
+}
+test();
+// showReport()
+//   .then((data) => {
+//     console.log(table(data, config));
+//   })
+//   .catch((err) => console.error(err));

@@ -1,5 +1,5 @@
 import { table } from "table";
-import { showReport } from "./modules/firebase-utils.js";
+import { showReport } from "../../modules/firebase-utils.js";
 const config = {
   columns: [
     { alignment: "left" },

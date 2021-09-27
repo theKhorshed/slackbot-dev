@@ -1,0 +1,59 @@
+{
+    "users": {
+       "khorshed":  {
+            "name": "Khorshed",
+            "slack_handle": "theKhorshed",
+            "signin-status": [
+                {
+                    "label": "CH",
+                    "slug": "CH",
+                    "status" : "red"},
+                {
+                    "label": "Facebook Onboarding",
+                    "slug": "fb-onboarding",
+                    "status" : "red"
+                },
+                {
+                    "label": "Facebook Ads",
+                    "slug": "fb-ads",
+                    "status" : "red"
+                },
+                {
+                    "label": "Facebook Groups",
+                    "slug": "fb-groups",
+                    "status" : "red"
+                },
+                {
+                    "label": "Recallers",
+                    "slug": "recallers",
+                    "status" : "red"
+                },
+                {
+                    "label": "H360",
+                    "slug": "h360",
+                    "status" : "red"
+                },
+                {
+                    "label": "AN",
+                    "slug": "an",
+                    "status" : "red"
+                },
+                {
+                    "label": "HSTD",
+                    "slug": "hstd",
+                    "status" : "red"
+                },
+                {
+                    "label": "Wag Nation",
+                    "slug": "wag-nation",
+                    "status" : "red"
+                },
+                {
+                    "label": "ICP",
+                    "slug": "icp",
+                    "status" : "red"
+                }
+            ]
+        }
+    }
+}
