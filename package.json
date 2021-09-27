@@ -5,7 +5,7 @@
   },
   "scripts": {
     "build": "npm run build:server",
-    "build:server": "netlify-lambda build netlify/functions"
+    "build:server": "netlify-lambda build src/functions"
   },
   "devDependencies": {
     "netlify-lambda": "^2.0.14"

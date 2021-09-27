@@ -4,7 +4,7 @@
   publish = "public"
   functions = "netlify/functions"
 [functions]
-  included_files = ["netlify/functions/modules/**"]
+  included_files = ["src/functions/modules/**"]
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
