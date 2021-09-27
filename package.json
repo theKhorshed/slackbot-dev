@@ -3,11 +3,7 @@
     "firebase": "^9.0.2",
     "table": "^6.7.1"
   },
-  "scripts": {
-    "build": "npm run build:server",
-    "build:server": "netlify-lambda build src/functions"
-  },
   "devDependencies": {
-    "netlify-lambda": "^2.0.14"
+    "netlify-cli": "^6.9.17"
   }
 }
